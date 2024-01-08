@@ -2,20 +2,26 @@ Welcome to CyCon documentation!
 ===================================
 
 **Introduction**
-This file is a comparative analysis on Cycon’s ability to perform Stocastic Gradient Decent. This serves as proof that the Cycon page is able to perform Stocastic Gradient Decent. The following shows Stocastic Gradient Decent results for various datasets.
+To address the challenges in construction research communities and flatten the learning curve for CI
+adoption, this project aims to develop an educational and community engagement platform called CyCon
+(Cyber Construction). CyCon platform will focus on AI/ML techniques and cloud computing solutions that
+serve CI users, contributors, and professionals in the construction research and development community.
+The CyCon platform aligns with Solicitation Goals of Broadening the Adoption of Advanced CI, and
+Integration of CI Skills into Curriculum/Instructional Materials.
 
-
-Check out the :doc:`usage` section for further information, including
+Check out the :doc:`Logistic regression` section for further information, including
 how to :ref:`installation` the project.
+
 
 .. note::
 
    This project is under active development.
 
+========
 Contents
---------
+========
 
 .. toctree::
-
-   usage
+   index
+   Logistic regression
    api
