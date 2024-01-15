@@ -21,19 +21,19 @@ Settings
 
 A clickable image:
 
-.. image:: ./images/LR1.png
+.. image:: ./Images/LR1.png
    :target: https://unsplash.com/
    :width: 500
 
 |
 
-.. image:: ./images/LR2.png
+.. image:: ./Images/LR2.png
    :width: 500
    
 
 
 To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+you can use the function:
 
 .. autofunction:: lumache.get_random_ingredients
 
