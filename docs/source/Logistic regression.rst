@@ -21,7 +21,7 @@ Settings
 
 A clickable image:
 
-.. image:: ./Images/LR1.png
+.. figure:: /Images/LR1.png
    :target: https://unsplash.com/
    :width: 500
 
