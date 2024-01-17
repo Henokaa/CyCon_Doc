@@ -22,11 +22,11 @@ Settings
 ----------------
 
 .. figure:: /Images/LR1.png
-   :target: https://unsplash.com/
    :width: 700
 
-|
 
+Preprocessing using CyCon 
+----------------
 .. image:: ./Images/LR2.png
    :width: 700
 
@@ -39,7 +39,8 @@ Settings
    y = ad_data['Clicked on Ad']
    X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.4)
 
-
+Logistic regression parameter in CyCon 
+----------------
 .. image:: ./Images/LR3.png
    :width: 700
 
@@ -49,6 +50,8 @@ Settings
    logmodel = LogisticRegression()
    logmodel.fit(X_train,y_train) 
 
+CyCon Score 
+----------------
 .. image:: ./Images/LR4.png
    :width: 500
 
