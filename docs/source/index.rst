@@ -24,4 +24,4 @@ Contents
 .. toctree::
    index
    Logistic regression
-   api
+   FAQ
