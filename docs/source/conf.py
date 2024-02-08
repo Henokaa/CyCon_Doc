@@ -31,5 +31,36 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    'navigation_depth': 4,
+    'titles_only': False,
+    'collapse_navigation': False,
+    'includehidden': True,
+    'html_last_updated_fmt': '%b %d, %Y',
+    'html_show_sourcelink': False,
+    'pages': [
+        {
+            'page': 'index',
+            'title': 'Home',
+            'link': 'index.html',
+        },
+        {
+            'page': 'Logistic regression',
+            'title': 'Logistic Regression',
+            'link': 'logistic-regression.html',
+        },
+        {
+            'page': 'KNN',
+            'title': 'KNN',
+            'link': 'knn.html',
+        },
+        {
+            'page': 'FAQ',
+            'title': 'Frequently Asked Questions',
+            'link': 'faq.html',
+        },
+    ],
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

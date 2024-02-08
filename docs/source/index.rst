@@ -24,4 +24,6 @@ Contents
 .. toctree::
    index
    Logistic regression
+   KNN
    FAQ
+  
