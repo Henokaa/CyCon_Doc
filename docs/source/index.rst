@@ -25,5 +25,6 @@ Contents
    index
    Logistic regression
    KNN
+   Perceptron
    FAQ
   

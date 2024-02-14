@@ -55,6 +55,11 @@ html_theme_options = {
             'link': 'knn.html',
         },
         {
+            'page': 'Perceptron',
+            'title': 'Perceptron',
+            'link': 'Perceptron.html',
+        },
+        {
             'page': 'FAQ',
             'title': 'Frequently Asked Questions',
             'link': 'faq.html',
