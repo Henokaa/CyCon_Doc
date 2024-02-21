@@ -5,9 +5,7 @@ Logistic regression
 
 Introduction
 ------------
-
-This guide is a comparative analysis on Cycon’s ability to perform Logistic regression classification. This serves as proof that the Cycon page is able to perform Logistic regression. 
-The following shows Logistic regression results for various datasets.
+This guide provides steps to perform Logistic Regression analysis in Cycon ML/AI platform, and compares it with the code available within Kaggle platform.
 
 .. note::
    * Name: Advertising CSV
@@ -18,18 +16,22 @@ The following shows Logistic regression results for various datasets.
    * Purpose: whether a user clicks on an ad or not
 
 
-Settings
+Data
 ----------------
 
 .. figure:: /Images/LR1.png
    :width: 700
 
 
-Preprocessing using CyCon 
-----------------
+Preprocessing 
+--------------
+CyCon 
+----------
 .. image:: ./Images/LR2.png
    :width: 700
 
+Kaggle
+-------
 .. code-block:: python
 
    from sklearn.model_selection import train_test_split
@@ -39,24 +41,30 @@ Preprocessing using CyCon
    y = ad_data['Clicked on Ad']
    X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.4)
 
-Logistic regression parameter in CyCon 
+Method
 ----------------
+CyCon
+------
 .. image:: ./Images/LR3.png
    :width: 700
 
+Kaggle
+--------
 .. code-block:: python
 
    from sklearn.linear_model import LogisticRegression
    logmodel = LogisticRegression()
    logmodel.fit(X_train,y_train) 
 
-CyCon Score 
-----------------
+Result 
+------------
+CyCon
+------
 .. image:: ./Images/LR4.png
    :width: 500
 
-Kaggle Score 
-----------------
+Kaggle
+-----------
 
 .. image:: ./Images/LR5.png
    :width: 500

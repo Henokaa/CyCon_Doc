@@ -26,5 +26,6 @@ Contents
    Logistic regression
    KNN
    Perceptron
+   Complement Naive Bayes
    FAQ
   

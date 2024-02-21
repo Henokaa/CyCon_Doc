@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'CyCon'
-copyright = '2021, Graziella'
+copyright = '2024, Graziella'
 author = 'Graziella'
 
 release = '0.1'
@@ -58,6 +58,11 @@ html_theme_options = {
             'page': 'Perceptron',
             'title': 'Perceptron',
             'link': 'Perceptron.html',
+        },
+        {
+            'page': 'Complement Naive Bayes',
+            'title': 'Complement Naive Bayes',
+            'link': 'Complement-Naive-Bayes.html',
         },
         {
             'page': 'FAQ',
