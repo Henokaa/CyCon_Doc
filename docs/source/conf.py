@@ -65,6 +65,11 @@ html_theme_options = {
             'link': 'Complement-Naive-Bayes.html',
         },
         {
+            'page': 'SVM',
+            'title': 'SVM',
+            'link': 'SVM.html',
+        },
+        {
             'page': 'FAQ',
             'title': 'Frequently Asked Questions',
             'link': 'faq.html',

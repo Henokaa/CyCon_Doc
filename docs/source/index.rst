@@ -27,5 +27,6 @@ Contents
    KNN
    Perceptron
    Complement Naive Bayes
+   SVM
    FAQ
   

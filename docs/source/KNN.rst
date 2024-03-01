@@ -1,4 +1,4 @@
-KNN
+K-Nearest Neighbors
 =====
 
 .. _installation:
